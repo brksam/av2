@@ -41,10 +41,15 @@ As propriedades essenciais estão definidas no arquivo `application.yml`:
 ## 6. Testes de Carga com JMeter
 - Arquivo de teste JMeter incluso
 - Simulação de login e análise de métricas como throughput, tempo médio de resposta e erro %
+  ![Screenshot_2](https://github.com/user-attachments/assets/53924136-d187-48e2-a455-8994d7037a09)
+  ![Screenshot_1](https://github.com/user-attachments/assets/fa275acf-a947-4a18-bedc-65f821077ee0)
+
 
 ## 7. Documentação com Swagger / OpenAPI
 - Documentação automática gerada pelo Springdoc OpenAPI
 - Endpoints expostos via Swagger UI
+  ![Screenshot_3](https://github.com/user-attachments/assets/93470fce-cbcd-4e4b-a939-f1f63a8a61d4)
+
 
 ## 8. Monitoramento da API
 - Spring Boot Actuator configurado
@@ -52,10 +57,12 @@ As propriedades essenciais estão definidas no arquivo `application.yml`:
 - Grafana com dashboards para monitoramento
 
 ### Exemplo de Dashboard no Grafana
-![Exemplo de Dashboard no Grafana](prova/av2/com/demo/monitoring/grafana/dashboards/spring-boot-dashboard.png)
+![grafana-dashboard](https://github.com/user-attachments/assets/4cabc968-33d9-4272-890d-33806dd4d6fe)
+
 
 ### Exemplo de Métricas no Prometheus
-![Exemplo de Métricas no Prometheus](prova/av2/com/demo/monitoring/prometheus-metrics.png)
+![prometheus-dashboard](https://github.com/user-attachments/assets/16c1599e-0972-4b0e-b17e-6ed22af453b8)
+
 
 ## 9. Deploy do Projeto
 - Containerização com Docker (Dockerfile incluso)
