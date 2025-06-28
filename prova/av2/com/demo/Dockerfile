@@ -1,13 +1,13 @@
 # Etapa 1: Build do JAR
 FROM maven:3.9.6-eclipse-temurin-21 AS build
 WORKDIR /app
-COPY ../../.. .
-RUN mvn -f av2/com/demo/pom.xml clean package -DskipTests
+COPY . .
+RUN mvn -f prova/av2/com/demo/pom.xml clean package -DskipTests
 
 # Etapa 2: Imagem final para rodar o JAR
 FROM eclipse-temurin:21-jre-jammy
 WORKDIR /app
-COPY --from=build /app/av2/com/demo/target/demo-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=build /app/prova/av2/com/demo/target/demo-0.0.1-SNAPSHOT.jar app.jar
 
 # Adicione metadados
 LABEL maintainer="Demo Project" \
