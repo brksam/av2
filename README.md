@@ -173,6 +173,7 @@ Exemplo de corpo para POST `/livros` (usando o id da editora já cadastrada):
 
 ## 📦 **Deploy**
 - O deploy foi realizado no Render, sem necessidade de Docker local
+- NÃO ESTOU USANDO MAIS Railway App
 - Basta subir o código para o GitHub e configurar o serviço no Render
 
 ---
