@@ -1,0 +1,40 @@
+# Arquivos do Maven
+target/
+!target/*.jar
+pom.xml
+mvnw
+mvnw.cmd
+
+# Arquivos de desenvolvimento
+src/
+.git/
+.gitignore
+README.md
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.iml
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de teste
+test/
+tests/
+
+# Arquivos de documentação
+docs/
+*.md
+
+# Arquivos de configuração local
+application-local.yml
+application-dev.yml 
